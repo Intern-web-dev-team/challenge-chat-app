@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.7;
+  background-color: white;
+}
+
+.subject-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+  height: 100vh;
+}
+
+.phone {
+  position: relative;
+  width: 250px;
+  height: 500px;
+  background-color: white;
+  border-radius: 40px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.screen {
+  width: 225px;
+  height: 475px;
+  background-color: whitesmoke;
+  border-radius: 30px;
+  position: relative;
+}
+
+/* iPhone Notch */
+.notch {
+  position: absolute;
+  top: 3px;
+  width: 115px;
+  height: 30px;
+  background-color: white;
+  border-radius: 30px;
+}/*# sourceMappingURL=index.css.map */
