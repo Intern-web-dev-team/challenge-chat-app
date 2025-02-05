@@ -197,6 +197,37 @@ body {
   line-height: 1.5;
 }
 
+.send-btn-container input {
+  position: absolute;
+  border: none;
+  padding: 10px 13px;
+  width: 205px;
+  color: black;
+  border-radius: 25px;
+  left: 20px;
+  bottom: 25px;
+}
+
+.send-btn-container input::-moz-placeholder {
+  color: rgb(213, 212, 212);
+  font-size: 10px;
+  font-style: italic;
+}
+
+.send-btn-container input::placeholder {
+  color: rgb(213, 212, 212);
+  font-size: 10px;
+  font-style: italic;
+}
+
+.send-btn-container img {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  right: 30px;
+  bottom: 28px;
+}
+
 .hero-text {
   max-width: 500px;
 }
