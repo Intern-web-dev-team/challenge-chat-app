@@ -197,6 +197,55 @@ body {
   line-height: 1.5;
 }
 
+.chat-dog-pics {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  position: absolute;
+  top: 195px;
+  left: 90px;
+}
+.chat-dog-pics .dog-pics {
+  height: 42px;
+  width: 42px;
+  border-radius: 25%;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.chat-3 {
+  height: 40px;
+  width: 130px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 250px;
+  left: 100px;
+  padding: 5px;
+  border-radius: 8px 8px 0px 8px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+.chat-3 p {
+  font-size: 0.55rem;
+  color: rgba(0, 0, 0, 0.507);
+  line-height: 1.5;
+}
+
+.chat-4 {
+  height: 25px;
+  width: 90px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 300px;
+  left: 140px;
+  padding: 5px;
+  border-radius: 8px 8px 0px 8px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+.chat-4 p {
+  font-size: 0.55rem;
+  color: rgba(0, 0, 0, 0.507);
+  line-height: 1.5;
+}
+
 .hero-text {
   max-width: 500px;
 }
