@@ -181,6 +181,22 @@ body {
   line-height: 1.5;
 }
 
+.chat-2 {
+  height: 40px;
+  width: 130px;
+  background-color: rgba(136, 56, 255, 0.1137254902);
+  position: absolute;
+  top: 140px;
+  left: 20px;
+  padding: 5px;
+  border-radius: 8px 8px 8px 0px;
+}
+.chat-2 p {
+  font-size: 0.55rem;
+  color: purple;
+  line-height: 1.5;
+}
+
 .hero-text {
   max-width: 500px;
 }
