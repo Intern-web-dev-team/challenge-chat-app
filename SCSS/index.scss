@@ -248,12 +248,59 @@ body {
     }
 }
 
+.chat-5 {
+    height: 50px;
+    width: 130px;
+    background-color: #8838ff1d;
+    position: absolute;
+    top: 340px;
+    left: 20px;
+    padding: 5px;
+    border-radius: 8px 8px 8px 0px;
+
+    p {
+        font-size: 0.55rem;
+        color: purple;
+        line-height: 1.5;
+    }
+}
+
+.chat-6 {
+    height: 30px;
+    width: 160px;
+    background: linear-gradient(to right, #8838ff, #e942ff);
+    position: absolute;
+    top: 400px;
+    left: 20px;
+    padding: 5px;
+    border-radius: 8px 8px 8px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; /* Added to horizontally center content */
+    gap: 8px;
+    color: white;
+}
+
+.chat-6 .rate {
+    font-size: 15px;
+    color: white;
+    display: flex; /* Added to ensure rate itself is properly aligned */
+    align-items: center; /* Added to vertically center the rate text */
+    margin: 0; /* Reset any default margins */
+}
+
+.chat-6 .label {
+    font-size: 0.6rem;
+    opacity: 70%;
+}
+
 
 .send-btn-container input{
     position: absolute;
     border: none;
     padding: 10px 13px;
-    width: 205px;
+    width: 210px;
     color:black;
    
     border-radius: 25px;
@@ -270,7 +317,7 @@ body {
     position: absolute;
     height: 30px;
     width: 30px;
-    right: 30px;
+    right: 25px;
     bottom: 28px;
 
 }
